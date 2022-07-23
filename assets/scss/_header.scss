@@ -1,0 +1,92 @@
+header{
+   background-color: transparent;
+    position: sticky;
+    //top: 0;
+    z-index: (1000);
+    
+    .navbar{
+
+        background-color: transparent;
+        &.solid-nav {
+            background-color: rgb(255, 255, 255);
+            transition: background-color 0.2s linear;
+          }
+        .container{
+            .navbar-brand{
+                text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 800;
+                    color:#212529;
+                    line-height: 1.5;
+            }
+        }
+       
+            .navbar-nav{
+                display: flex;
+                list-style: none;
+                justify-content: end;
+                margin-left: auto;
+                .nav-item{
+                    font-size: 16px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    
+                    padding-left: 10px;
+                    padding-right: 5px;
+                    color: #000000;
+                    font-weight: 400;
+                    
+                   a{
+                         text-decoration: none;
+                        color: #000000;
+                        transition-duration: 0.3s;
+                        &:hover {
+                            color:blue;
+                            
+                        }
+                    }
+
+                }
+                .nav-item-post{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        &:hover {
+                            color:white;
+                        }
+                    }
+                    border: 1px solid #6c63ff;
+                    border-radius: 5px;
+                    background-color: #6c63ff;
+                    padding-top: 2px;
+                    padding-bottom: 4px;
+                    padding-left: 20px;
+                    padding-right: 20px;        
+                    margin-top: 10px;
+                    height: 45px;
+                    margin-right: 6px;
+                }           
+                
+                .nav-item-want{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        &:hover {
+                            color:white;
+                        }
+                    }
+                    border: 1px solid #ff6347;
+                    border-radius: 5px;
+                    background-color: #ff6347;
+                    padding-top: 2px;
+                    padding-bottom: 4px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-top: 10px;
+                    height: 45px;
+                }
+            }
+    }
+    
+}
+
